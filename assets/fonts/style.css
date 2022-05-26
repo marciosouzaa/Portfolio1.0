@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1au1la');
+  src:  url('fonts/icomoon.eot?1au1la#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1au1la') format('truetype'),
+    url('fonts/icomoon.woff?1au1la') format('woff'),
+    url('fonts/icomoon.svg?1au1la#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-css3:before {
+  content: "\e90e";
+  color: #1572b6;
+}
+.icon-html5:before {
+  content: "\e90f";
+  color: #e34f26;
+}
+.icon-node-dot-js:before {
+  content: "\e910";
+  color: #393;
+}
+.icon-javascript:before {
+  content: "\e911";
+  color: #f7df1e;
+}
+.icon-envelop:before {
+  content: "\e903";
+}
+.icon-briefcase:before {
+  content: "\e908";
+}
+.icon-portfolio:before {
+  content: "\e908";
+}
+.icon-suitcase:before {
+  content: "\e908";
+}
+.icon-work:before {
+  content: "\e908";
+}
+.icon-job:before {
+  content: "\e908";
+}
+.icon-employee:before {
+  content: "\e908";
+}
+.icon-file-empty:before {
+  content: "\e90a";
+}
+.icon-file:before {
+  content: "\e90a";
+}
+.icon-document:before {
+  content: "\e90a";
+}
+.icon-paper:before {
+  content: "\e90a";
+}
+.icon-page:before {
+  content: "\e90a";
+}
+.icon-new:before {
+  content: "\e90a";
+}
+.icon-empty:before {
+  content: "\e90a";
+}
+.icon-blank:before {
+  content: "\e90a";
+}
+.icon-home:before {
+  content: "\e90b";
+}
+.icon-house:before {
+  content: "\e90b";
+}
+.icon-linkedin:before {
+  content: "\e90d";
+}
+.icon-github:before {
+  content: "\e901";
+}
+.icon-arrow-up:before {
+  content: "\e90c";
+}
+.icon-phone:before {
+  content: "\e900";
+}
+.icon-close:before {
+  content: "\e902";
+}
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-mail:before {
+  content: "\e905";
+}
+.icon-map-pin:before {
+  content: "\e906";
+}
+.icon-menu:before {
+  content: "\e907";
+}
+.icon-whatsapp:before {
+  content: "\e909";
+}
