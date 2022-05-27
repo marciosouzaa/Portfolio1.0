@@ -203,7 +203,7 @@ nav.show .menu .social-medias{
 }
 
 nav.show .menu .social-medias a{
-  font-size: 18px;
+  font-size: 1.8rem;
   display: inline-block;
   background: var(--green);
   color: #fff;
@@ -222,7 +222,7 @@ nav.show .menu .social-medias a:hover{
   text-decoration: none;
 }
 nav.show .menu h1{
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -331,34 +331,37 @@ nav.show div.icon-close {
 }
 
 /*====  portfolios ============================ */
-.portfolio{
-  text-align: center;
-}
+
 .portfolios .portfolio.swiper-slide{
   margin: 0;
 }
 
-.portfolio .portfolio-img {
-  width: 40rem;
-  height: 35rem;
-  border-radius: 2rem;
-  margin: 0 auto;
-}
+
 #portfolios header {
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 0;
 }
 
-#portfolios a {
-text-align: center;
-}
 
 #portfolios cite{
   font-family: 'Koulen', cursive;
   letter-spacing: .4rem;
+  margin-top: 0;
 }
+#portfolios cite h3{
+  background-color: #6f7180;
+  width: 40rem;
+  border-radius: 0 0 1rem 1rem;
+  margin-top: -1.2rem;
+  text-align: center;
+}
+#portfolios cite h3 span{
 
+  font-family: 'Roboto', sans-serif;;
+  font-size: 1.5rem;
+
+}
 
 /* swiper */
 .swiper-slide {
@@ -479,7 +482,6 @@ footer.section {
   nav .menu {
     opacity: 1;
     visibility: visible;
-  
     position: fixed;
     top: 0;
     left: 0;
@@ -507,7 +509,7 @@ nav .menu .social-medias{
   margin-bottom: 4rem;
 }
 nav .menu .social-medias a{
-  font-size: 18px;
+  font-size: 1.8rem;
   display: inline-block;
   background: var(--green);
   color: #fff;
@@ -526,7 +528,7 @@ nav .menu .social-medias a:hover{
   text-decoration: none;
 }
 nav .menu h1{
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -540,10 +542,6 @@ nav ul.grid {
   gap: 4rem;
 }
 /* END NAVIGATION  */
-
-
-
-
 
   nav .icon-menu {
     display: none;
@@ -576,12 +574,6 @@ nav ul.grid {
     z-index: 9999;
     background: hsl(214, 67%, 2%);
   }
-
-  
-
-  
-
-  
 }
 /* large devices: 1023 > */
 /* large devices: 992 > */
@@ -589,6 +581,6 @@ nav ul.grid {
 .portfolio .portfolio-img {
   width: 40rem;
   height: 35rem;
-  border-radius: 2rem;
+  border-radius: 1rem 1rem 0 0;
   margin: 0 auto;
 }
