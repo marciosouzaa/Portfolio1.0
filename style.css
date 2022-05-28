@@ -41,6 +41,7 @@ body {
   background-color: var(--dark-green);
   color: #fff;
   /* font-family: 'Koulen', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -249,7 +250,7 @@ nav .icon-close {
 
   position: absolute;
   top: -1.5rem;
-  right: 1.5rem;
+  right: 3rem;
 
   transition: 0.2s;
 }
@@ -258,6 +259,7 @@ nav.show div.icon-close {
   visibility: visible;
   opacity: 1;
   top: 1.5rem;
+  right: 3rem;
 }
 /* MENU NAV  */
 .menu li a{
@@ -311,15 +313,34 @@ nav.show div.icon-close {
   border-bottom: .3rem solid var(--green);
 }
 
+/* ---------ABOUT */
+#about h2,
+#about h3{
+  margin-bottom: 1rem;
+}
+#about .text{
+  position: relative;
+}
+.text ul li,
+.qualities ul li{
+margin-bottom: 3rem;
+}
+#about ul li span{
+  font-family: 'Koulen', cursive;
+border-radius: 5rem ;
+  border-left: .3rem solid var(--green);
+  color: var(--light-green);
+}
+
 /*====  resume ============================ */
 
 #resume .text {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 
 .programs img{
-  
   width: 6rem;
 
 }
@@ -408,6 +429,17 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+/* CITE  */
+#cite{
+  padding: 1rem;
+}
+#cite p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+#cite h3{
+  font-size: 1.3rem;
+}
 /*====  FOOTER ============================ */
 footer {
   background: black;
@@ -452,7 +484,7 @@ footer.section {
 /* extra large devices: 1200 > */
 @media (min-width: 1200px) {
   /* reusable classes */
-  #resume, #portfolios, #contact{
+  #cite, #about, #resume, #portfolios, #contact{
     margin-left: 3rem;
   }
   main {
@@ -546,7 +578,17 @@ nav ul.grid {
   nav .icon-menu {
     display: none;
   }
- 
+
+  /* ABOUT */
+  #about .container{
+    grid-auto-flow: column;
+    align-items: center;
+  }
+  #about .text{
+    max-width: 60rem;
+  }
+
+ /* RESUME */
   #resume .container{
     grid-auto-flow: column;
     align-items: center;
