@@ -316,7 +316,7 @@ nav.show div.icon-close {
 /* ---------ABOUT */
 #about h2,
 #about h3{
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 #about .text{
   position: relative;
@@ -325,7 +325,10 @@ nav.show div.icon-close {
 .qualities ul li{
 margin-bottom: 3rem;
 }
-#about ul li span{
+.qualities ul li span{
+  color: var(--light-green);
+}
+#about .text ul li span{
   font-family: 'Koulen', cursive;
 border-radius: 5rem ;
   border-left: .3rem solid var(--green);
