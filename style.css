@@ -320,6 +320,7 @@ nav.show div.icon-close {
 }
 #about .text{
   position: relative;
+  text-align: justify;
 }
 .text ul li,
 .qualities ul li{
@@ -340,6 +341,7 @@ border-radius: 5rem ;
 #resume .text {
   position: relative;
   margin-bottom: 3rem;
+  text-align: justify;
 }
 
 
