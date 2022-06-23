@@ -381,6 +381,7 @@ border-radius: 5rem ;
   border-radius: 0 0 1rem 1rem;
   margin-top: -1.2rem;
   text-align: center;
+  box-shadow: 0rem 0rem 1.3rem #6f7180;
 }
 #portfolios cite h3 span{
 
@@ -630,4 +631,5 @@ nav ul.grid {
   height: 25rem;
   border-radius: 1rem 1rem 0 0;
   margin: 0 auto;
+  box-shadow: 0rem 0rem 1.3rem #6f7180;
 }
