@@ -281,7 +281,7 @@ nav.show div.icon-close {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background: url("/assets/image/astronautaNaLua2.png") top center;
+  animation: change-background 4s linear infinite;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -295,23 +295,18 @@ nav.show div.icon-close {
 
 #home  h1 {
   text-align: center;
-  margin: 20rem 0 1rem 0;
-  font-size: 7rem;
+  margin: 25rem 0 1rem 0;
+  font-size: calc(4rem + 2.5vw);
   font-weight: 700;
   line-height: 5.6rem;
   text-shadow: 1rem -.5rem 1rem var(--green);
 }
-#home .foguete{
-  position: absolute;
-  top: -30rem;
-  left: 20rem;
-  width: 30rem;
-  height: 30rem;
-}
+
 
 #home  p {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: calc(2.0rem + 1.5vw);
+  color: var(--light-green);
 }
 #home p span {
 
@@ -351,10 +346,18 @@ border-radius: 5rem ;
   text-align: justify;
 }
 
-
+.programs{
+  width: 25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
 .programs img{
-  width: 6rem;
-
+  width: 7rem;
+  
+}
+.programs img:first-child{
+  margin-bottom: 1.5rem;
 }
 #resume h3{
   margin-bottom: 2rem;
@@ -492,6 +495,24 @@ footer.section {
   transform: translateY(0);
 }
 
+/* keyframe */
+@keyframes change-background {
+  0% {
+    background: black;
+  }
+  25% {
+    background: var(--dark-green);
+  }
+  50% {
+    background: hsl(var(--hue), 90%, 10%);;
+  }
+  75% {
+    background: var(--dark-green);
+  }
+  100% {
+    background: black;
+  }
+}
 
 /*========= MEDIA QUERIES =========*/
 /* extra large devices: 1200 > */
